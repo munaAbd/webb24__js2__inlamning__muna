@@ -1,0 +1,33 @@
+
+nav {
+    background-color: goldenrod ; /* Ljus bakgrundsfärg */
+    padding: 15px; /* Utrymme inuti navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+  }
+  
+  nav a {
+    margin-right: 30px; /* Utrymme mellan länkar */
+    text-decoration: none; /* Ingen understrykning */
+    color: black; /* Länkfärg */
+    font-weight: bold; /* Fet stil för länktext */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Understrykning vid hover */
+    color: blue; /* Mörkare färg vid hover */
+  }
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0; /* Lägg till utrymme mellan länkar i mobilvy */
+    }
+  }
+  nav {
+    text-align: center; /* Centrera innehållet horisontellt */
+  }
+  nav a {
+    transition: color 0.3s, text-decoration 0.3s; /* Lägger till övergångseffekt */
+  }
+  nav {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Större och mörkare skugga */
+  }
